@@ -1,0 +1,22 @@
+{
+  "name": "snowrunescape/baselime-sdk",
+  "description": "Baselime SDK is a client library",
+  "type": "library",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bruno Caitano",
+      "email": "snowrunescape@snowdev.com.br",
+      "homepage": "https://snowdev.com.br"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Baselime\\": "src/"
+    }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^7.8.1"
+  }
+}
